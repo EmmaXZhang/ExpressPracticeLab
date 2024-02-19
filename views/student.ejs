@@ -10,7 +10,8 @@
     <ul>
       <% students.forEach(function(s){ %>
       <li>
-        <%= s.name%> <%= s.enrol ? "current student" : "non-current student" %>
+        <%= s.name%> : <%= s.enrol ? "current student" : "non-current student"
+        %>
       </li>
       <% }) %>
     </ul>
